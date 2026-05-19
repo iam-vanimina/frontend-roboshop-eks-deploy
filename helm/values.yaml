@@ -1,7 +1,7 @@
 deployment:
   replicas: 1
   imageVersion: 1.0.0
-  imageURL: add path of ecr repo
+  imageURL: vanimina/fronntend:latest  # add path of ecr repo
 hpa:
   cpuUtilization: 15
 tgb:
