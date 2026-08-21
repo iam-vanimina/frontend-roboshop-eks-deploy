@@ -4,5 +4,5 @@ deployment:
   imageURL: vanimina/frontend  # add path of ecr repo
 hpa:
   cpuUtilization: 15
-tgb:
-  arn: add arn of target group here
+#tgb:
+  #arn: add arn of target group here
