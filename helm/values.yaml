@@ -1,7 +1,7 @@
 deployment:
-  replicas: 1
-  imageVersion: 1.0.0
-  imageURL: 390663897550.dkr.ecr.ap-south-1.amazonaws.com/roboshop/frontend  # add path of ecr repo
+  replicas: 2
+  imageVersion: latest  #1.0.0
+  imageURL: vanimina/frontend  # add path of ecr repo
 hpa:
   cpuUtilization: 15
 tgb:
